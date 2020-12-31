@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
+        h1{
+            text-align: center;
+        }
 
         .form-container{
             height: 10em;
             display: flex;
             align-items: center;
             justify-content: center }
+        }
+        button{
+            text-align:center
+
         }
     </style>
 </head>
@@ -22,13 +29,16 @@
     <form action="POST" class="login-form">
         <div class="input-item">
             <label for="email">Enter Email</label >
-            <input type="email" class= "login-email" placeholder="example@example.com" required>
+            <input type="email" class= "login-email" placeholder="email" required>
         </div>
         <br>
 
-        <div>
-            <label for="email">Enter Email</label >
-            <input type="email" name="email" class= "login-email" placeholder="example@example.com" required>
+        <div class="input-item">
+            <label for="password">Enter Password</label >
+            <input type="password" name="password" class= "login-password" placeholder=" password" required>
+        </div>
+        <div >
+            <button class="submit-button" type="submit">Login</button>
         </div>
     </form>
     </div>
