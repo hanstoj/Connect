@@ -1,4 +1,15 @@
 
+function interests(props) {
+    return (
+      <div className="interests">
+        <h2>{props.name}</h2>
+        <img src={props.imgUrl} />
+        <h2> interest level {props.interestLevel}</h2>
+      </div>
+    );
+  }
+
+
 function interestContainer(props) {
     const interests = [];
 
@@ -12,3 +23,14 @@ function interestContainer(props) {
         />
       );
     }
+
+    return (
+        <React.Fragment>
+          {interests}
+        </React.Fragment>
+      );
+    }
+    ReactDOM.render(
+        <interestContainer />,
+        document.getElementById('interests')
+      );
