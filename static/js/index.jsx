@@ -2,19 +2,19 @@ const interestData= [
 {
     name: 'Shopping',
     interestLevel: '2',
-    imgUrl: '/static/img/'
+    imgUrl: 'static\img\freestocks-yqBKaF1KecM-unsplash.jpg'
   },
 
   {
-    name: 'Short Stack Overflow',
+    name: 'Travel',
     interestLevel: '6',
-    imgUrl: '/static/img/'
+    imgUrl: 'static\img\cameron-venti-I1EWTM5mFEM-unsplash.jpg'
   },
 
   {
-    name: 'Merge',
+    name: 'Running',
     interestLevel: '9',
-    imgUrl: '/static/img/'
+    imgUrl: 'static\img\cameron-venti-I1EWTM5mFEM-unsplash.jpg'
   }
 ];
 
