@@ -1,3 +1,26 @@
+const interestData= [
+{
+    name: 'Shopping',
+    interestLevel: '2',
+    imgUrl: '/static/img/'
+  },
+
+  {
+    name: 'Short Stack Overflow',
+    interestLevel: '6',
+    imgUrl: '/static/img/'
+  },
+
+  {
+    name: 'Merge',
+    interestLevel: '9',
+    imgUrl: '/static/img/'
+  }
+];
+
+
+
+
 
 function interests(props) {
     return (
